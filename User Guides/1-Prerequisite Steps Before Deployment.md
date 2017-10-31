@@ -55,7 +55,7 @@ $securePassword = ConvertTo-SecureString -String "MyPassword" -Force –AsPlainT
 
 .\DeployDC.ps1 `
     -SubscriptionName "My Subscription" `
-    -DnsVmName "Domain Controller VM Name" `
+    -DnsVmName "contosodns" `
     -Location "eastus" `
     -ResourceGroupName "ContosoVNetGroup" `
     -VNetName "ContosoVNet" `
